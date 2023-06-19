@@ -14,13 +14,12 @@ interface Doador {
 export class BuscaDoadoresPorTipoSanguineoComponent {
   tipoSanguineo: string = '';
   mediaIdade: number | null = null;
-  tiposSanguineos: string[] = ['O-', 'A+', 'AB+', 'AB-', 'B-', 'A-', 'B+', 'O+']; // Lista de tipos sanguíneos definida no front-end
+  tiposSanguineos: string[] = ['O-', 'A+', 'AB+', 'AB-', 'B-', 'A-', 'B+', 'O+'];
 
   constructor(private http: HttpClient) {}
 
   buscarDadosTipoSanguineo() {
 
-    // Chamada HTTP para obter os dados do doador por tipo sanguíneo
     this.http.get<Doador[]>('http://localhost:8080/media-idade-por-tipo-sanguineo')
       .subscribe((doadores: Doador[]) => {
         const doadorEncontrado = doadores.find(d => d.tipoSanguineo === this.tipoSanguineo);

@@ -8,7 +8,6 @@
       </select>
     <button (click)="buscarDadosTipoSanguineo()"><strong>Buscar</strong></button>
   </div>
-  
   <div id="textResult" *ngIf="mediaIdade !== null">
     A média da idade dos doadores com sangue do tipo&nbsp;<strong>{{ tipoSanguineo }}</strong>&nbsp;é de&nbsp;<strong>{{ mediaIdade | number: '1.0-0' }}</strong>&nbsp;anos.
   </div>

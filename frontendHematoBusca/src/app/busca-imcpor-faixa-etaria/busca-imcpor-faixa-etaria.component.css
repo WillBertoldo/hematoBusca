@@ -26,11 +26,9 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #componetContent h2 {
     word-wrap: break-word; 
 }
-
 h2 {
     padding: 10px;
     align-items: center;
@@ -41,7 +39,6 @@ h2 {
     text-align: center;
     margin-bottom: -3%;
     margin-left: -18%;
-
 }
 h3{
     color: #44ffa8;
@@ -131,20 +128,19 @@ button{
 #textUp {
     position: absolute;
   }
-  #textUpTitle{
+#textUpTitle{
     position: absolute;
     font-size: small;
   }
-  #textDown {
+#textDown {
     position: absolute;
     margin-top: 90px;
-  }
-  
-  #textDownTitle {
+}
+#textDownTitle {
     position: absolute;
     margin-top: 90px;
     font-size: small;
-  }
+}
   
   
   

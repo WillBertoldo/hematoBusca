@@ -30,7 +30,6 @@
 #componetContent h2 {
     word-wrap: break-word; 
 }
-
 h2 {
     padding: 10px;
     align-items: center;
@@ -39,7 +38,6 @@ h2 {
     justify-content: center;
     align-items: center;
     word-wrap: break-word; 
- 
 }
 h3 {
     color: #4b4a4a;
@@ -74,7 +72,6 @@ select{
     border-right-width: 4px;
     margin-left: 39%;
     border-radius: 10px;
-
 }
 button{
     background-color: #6e5efd;

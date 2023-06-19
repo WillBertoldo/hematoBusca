@@ -14,11 +14,9 @@
     margin-right: 10%;
     border-radius: 20px;
 }
-
 #componetContent h2 {
     word-wrap: break-word; 
 }
-
 h2 {
     padding: 10px;
     align-items: center;
@@ -43,7 +41,6 @@ h3{
     text-align: center;
     width: 60%;
 }
-
 #resultItem h3{
     color: #000000;
     word-wrap: break-word;

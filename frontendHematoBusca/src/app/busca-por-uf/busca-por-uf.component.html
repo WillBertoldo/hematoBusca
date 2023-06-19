@@ -6,7 +6,6 @@
     <select id="estado" [(ngModel)]="estadoSelecionado"  (change)="atualizarResultado()">
       <option *ngFor="let estado of estados" [ngValue]="estado.sigla">{{ estado.sigla }}</option>
     </select>
-  
     <button (click)="buscarDoadoresPorEstado()"><strong>Buscar</strong></button>
   </div>
   <div *ngIf="doadoresPorEstado !== undefined">

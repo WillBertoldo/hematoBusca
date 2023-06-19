@@ -44,7 +44,7 @@ export class BuscaPorUfComponent {
    constructor(private apiService: ApiService) { }
 
   buscarDoadoresPorEstado() {
-    this.doadoresPorEstado = undefined; // Limpa o resultado anterior
+    this.doadoresPorEstado = undefined;
 
     if (this.estadoSelecionado) {
       this.apiService.getDoadoresPorEstado(this.estadoSelecionado).subscribe(

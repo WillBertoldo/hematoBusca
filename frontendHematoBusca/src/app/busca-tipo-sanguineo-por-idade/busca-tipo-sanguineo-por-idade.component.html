@@ -1,18 +1,17 @@
 <div id="componetContent">
-<h2>{{ tituloPagina }}</h2>
-<h3>Aqui você consegue ver a media de idade para cada tipo de sangue dos nossos doadores.</h3>
-<button (click)="buscarMediaIdadePorTipoSanguineo()"><strong>Ver</strong></button>
-
-<div *ngIf="mostrarLista">
-  <ul id="listResult">
-    <li id="listItem">
-      <p id="textUpTitle"> <strong>Tipo<br>Sanguíneo</strong></p>
-      <p id="textDownTitle"><strong>Média de <br>Idade</strong></p>
-    </li>
-    <li id="listItem" *ngFor="let item of listaMediaIdade">
-      <p id="textUp">{{ item.tipoSanguineo }}</p>
-      <p id="textDown"> {{ obterMediaIdadeArredondada(item.mediaIdade) }}</p>
-    </li>
-  </ul>
-</div>
+  <h2>{{ tituloPagina }}</h2>
+  <h3>Aqui você consegue ver a media de idade para cada tipo de sangue dos nossos doadores.</h3>
+  <button (click)="buscarMediaIdadePorTipoSanguineo()"><strong>Ver</strong></button>
+  <div *ngIf="mostrarLista">
+    <ul id="listResult">
+      <li id="listItem">
+        <p id="textUpTitle"> <strong>Tipo<br>Sanguíneo</strong></p>
+        <p id="textDownTitle"><strong>Média de <br>Idade</strong></p>
+      </li>
+      <li id="listItem" *ngFor="let item of listaMediaIdade">
+        <p id="textUp">{{ item.tipoSanguineo }}</p>
+        <p id="textDown"> {{ obterMediaIdadeArredondada(item.mediaIdade) }}</p>
+      </li>
+    </ul>
+  </div>
 </div>
