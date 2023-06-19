@@ -1,0 +1,23 @@
+<h2 id="titleComponent">Média de idade de doadores por tipo de sangue:</h2><br>
+<h3>Aqui você pode saber a média de idade dos doadores para cada tipo de sangue.</h3>
+<div id="componetContent" >
+  <div>
+      <label for="tipoSanguineo">Selecione o tipo sanguíneo:</label><br>
+      <select id="tipoSanguineo" [(ngModel)]="tipoSanguineo" (change)="atualizarResultado()">
+        <option *ngFor="let tipo of tiposSanguineos" [value]="tipo">{{ tipo }}</option>
+      </select>
+    <button (click)="buscarDadosTipoSanguineo()"><strong>Buscar</strong></button>
+  </div>
+  
+  <div id="textResult" *ngIf="mediaIdade !== null">
+    A média da idade dos doadores com sangue do tipo&nbsp;<strong>{{ tipoSanguineo }}</strong>&nbsp;é de&nbsp;<strong>{{ mediaIdade | number: '1.0-0' }}</strong>&nbsp;anos.
+  </div>
+  <div id="textResult" *ngIf="mediaIdade === 0">
+    Nenhum doador encontrado para o tipo sanguíneo selecionado.
+  </div>
+  <div id="textnull" *ngIf="mediaIdade === null">
+    Clique em BUSCAR.
+  </div>
+</div>
+  
+  

@@ -1,0 +1,16 @@
+<div id="componetContent" >
+    <h2>IMC por Faixa Etária</h2>
+    <h3>Aqui você pode ver uma tabela com a media do IMC de cada de cada faixa de idade dos nossos doadores.</h3>
+    <button (click)="buscarIMCPorFaixaEtaria()"><strong>Ver</strong></button>
+    <ul id="listResult" *ngIf="imcPorFaixaIdadeOrdenado">
+      <li id="listItem">
+       <p id="textUpTitle"> <strong>Faixa<br>Etária</strong></p>
+       <p id="textDownTitle"> <strong>IMC<br>Médio</strong></p>
+      </li>
+      <li id="listItem" *ngFor="let item of imcPorFaixaIdadeOrdenado">
+        <p id="textUp">{{ item.faixaIdade }}</p>
+        <p id="textDown">{{ item.imcMedio.toFixed(3) }}</p>
+      </li>
+    </ul>
+  </div>
+  

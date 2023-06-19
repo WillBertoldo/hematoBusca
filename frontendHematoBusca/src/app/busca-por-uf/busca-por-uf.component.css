@@ -1,0 +1,118 @@
+#componetContent {
+    background-color: #fd4747;
+    padding: 10px;
+    color: #f9f0f1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flexbox;
+    border: 2px solid #030303;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+#titleComponent{
+    color: #000000;
+    word-wrap: break-word;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flexbox;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    word-wrap: break-word; 
+}
+#componetContent h2 {
+    word-wrap: break-word; 
+}
+
+h2 {
+    padding: 10px;
+    align-items: center;
+    color: #f9f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word; 
+ 
+}
+h3 {
+    color: #4b4a4a;
+    word-wrap: break-word;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flexbox;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -3%;
+}
+label{
+    padding: 10px;
+    align-items: center;
+    color: #f9f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+select{
+    padding: 10px;
+    align-items: center;
+    color: #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #030303;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    margin-left: 39%;
+    border-radius: 10px;
+
+}
+button{
+    background-color: #6e5efd;
+    padding: 10px;
+    align-items: center;
+    color: #000000;
+    display: inline;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #000000;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+#textnull{
+    padding: 10px;
+    align-items: center;
+    color: #f9f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#textResult{
+    margin: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-color: #bae766;
+    padding: 10px;
+    align-items: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #000000;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    border-radius: 10px;
+    width: 70%;
+}
+  

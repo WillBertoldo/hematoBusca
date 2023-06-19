@@ -1,0 +1,33 @@
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    color: #f9f0f1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    border: 2px solid #030303;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    width: 98.2%;
+    height: 55px;
+    align-items: center;
+    margin-top: -0.7%;
+}
+img{
+    margin: 0%;
+    width: 150px;
+}
+ul{
+    align-items: flex-end;
+    margin: 0%;
+    margin-left: 50%;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+a {
+    color: #030303;
+    text-decoration: none;
+}

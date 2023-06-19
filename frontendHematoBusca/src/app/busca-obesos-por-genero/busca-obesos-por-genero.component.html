@@ -1,0 +1,17 @@
+<div id="componetContent">
+  <h2>Percentual de doadores acima do peso: </h2>
+  <h3>Aqui você pode ver o percentual de doadores obesos de cada sexo.</h3>
+  <button (click)="buscarObesosPorGenero()"><strong>Ver</strong></button>
+  <div id="result" *ngIf="percentObeseMen !== undefined && percentObeseWomen !== undefined">
+    <div id="resultItem">
+      <h3>Homens</h3>
+      <img src="./../assets/homem.png">
+      <p><strong>{{ percentObeseMen }}%</strong>&nbsp;dos doadores estão acima do peso.</p>
+    </div>
+    <div id="resultItem">
+      <h3>Mulheres</h3>
+      <img src="./../assets/mulher.png">
+      <p><strong>{{ percentObeseWomen }}%</strong>&nbsp;das doadoras estão acima do peso.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<h2 id="titleComponent">Quantidade de doadores por estado:</h2>
+<h3>Aqui você pode saber a quantididade de doadores em cada estado do Brasil.</h3>
+<div id="componetContent">
+  <div>
+    <label for="estado">Selecione o estado:</label>
+    <select id="estado" [(ngModel)]="estadoSelecionado"  (change)="atualizarResultado()">
+      <option *ngFor="let estado of estados" [ngValue]="estado.sigla">{{ estado.sigla }}</option>
+    </select>
+  
+    <button (click)="buscarDoadoresPorEstado()"><strong>Buscar</strong></button>
+  </div>
+  <div *ngIf="doadoresPorEstado !== undefined">
+    <p id="textResult">O estado de&nbsp;<strong>{{ getNomeEstadoSelecionado() }}</strong>&nbsp;tem um total de&nbsp;<strong>{{ doadoresPorEstado }}</strong>&nbsp;doadores.</p>
+  </div>
+  <div id="textnull" *ngIf="doadoresPorEstado == undefined || doadoresPorEstado == null  ">
+    <p> Click em BUSCAR.</p>
+  </div>
+</div>
+
+

@@ -1,0 +1,107 @@
+#componetContent {
+    background-color: #fd4747;
+    padding: 10px;
+    color: #f9f0f1;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flexbox;
+    border: 2px solid #030303;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+#componetContent h2 {
+    word-wrap: break-word; 
+}
+
+h2 {
+    padding: 10px;
+    align-items: center;
+    color: #f9f0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-bottom: -3%;
+    margin-left: -18%;
+}
+h3{
+    color: #44ffa8;
+    word-wrap: break-word;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 60%;
+}
+
+#resultItem h3{
+    color: #000000;
+    word-wrap: break-word;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 60%;
+}
+select{
+    padding: 10px;
+    align-items: center;
+    color: #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #030303;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    margin-left: 41%;
+}
+button{
+    background-color: #6e5efd;
+    padding: 10px;
+    align-items: center;
+    color: #000000;
+    display: inline;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid #000000;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    margin-left: 6%;
+    border-radius: 10px;
+    width: 10%;
+}
+#result{
+    display: flex;
+}
+#resultItem{
+    color: #000000;
+    background-color: #bae766;
+    width: 60%;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid #000000;
+    border-bottom-width: 6px;
+    border-right-width: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+#resultItem p{
+    width: 80%;
+    margin: 10%;
+}
+  
