@@ -1,5 +1,5 @@
 # hematoBusca
-Um app para consulta de dados de doadores de sangue.
+Um app para consulta de dados de doadores de sangue, posssui um front end feito no estilo neubrutalism e um backend para se comunicar com o banco de dados MySql.
 
 # IMPORTANTE
 # É importante que o frontend esteva rodando na porta 4200 caso esteja rodando em outra sera nessecario alterar a porta na linha 18 do 
